@@ -97,18 +97,7 @@ Para acessar paula : acessa departamento finaiceira - paula
 
 Modelo em rede :
 
-```mermaid
-graph TD;
-    Departamento-->|ID|Nome|;
-    Professor-->|ID|NOME|;
-    Curso-->|Cod|Nome|;
-    Estudante-->|RA|Nome|Curso|;
-    Departamento-->|Nome|-->Professor-->|ID|;
-    Financeiro-->Paula;
-    Financeiro-->Renato;
-    Engenharia-->Fábio;
-    Engenharia-->Monica;
-```
+
 
 
  
