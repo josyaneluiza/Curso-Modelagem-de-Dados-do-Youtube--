@@ -100,6 +100,54 @@ Modelo em rede :
 
 
 
+modelo relacional :
+
+* 
+* inclusive de
+
+
+
+|Aluno|
+|-----|
+|Ra Int|
+|Nome VARCHAR|
+|Curso Varchar|  
+
+|Professor|
+|---------|
+|ID INT|
+|Nome Varchar|
+
+|Curso|
+|-----|
+|Cod INT|
+|Nome VARCHAR|
+|Duracao DATE|
+
+```mermaid
+graph TD;
+    |Aluno|
+|-----|
+|Ra Int|
+|Nome VARCHAR|
+|Curso Varchar|-->|Curso|
+|-----|
+|Cod INT|
+|Nome VARCHAR|
+|Duracao DATE|;
+|Curso|
+|-----|
+|Cod INT|
+|Nome VARCHAR|
+|Duracao DATE|-->|Professor|
+|---------|
+|ID INT|
+|Nome Varchar|;   
+```
+
+
+
+
  
 
 
