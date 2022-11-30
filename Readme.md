@@ -113,20 +113,16 @@ modelo relacional :
 |Nome VARCHAR|
 |Curso Varchar|  
 
-|
-|
-|
-V
+-->
+
 |Curso|
 |-----|
 |Cod INT|
 |Nome VARCHAR|
 |Duracao DATE|
 
-|
-|
-|
-V
+-->
+
 |Professor|
 |---------|
 |ID INT|
