@@ -113,43 +113,23 @@ modelo relacional :
 |Nome VARCHAR|
 |Curso Varchar|  
 
-|Professor|
-|---------|
-|ID INT|
-|Nome Varchar|
-
+|
+|
+|
+V
 |Curso|
 |-----|
 |Cod INT|
 |Nome VARCHAR|
 |Duracao DATE|
 
-```mermaid
-graph TD;
-    |Aluno|
-|-----|
-|Ra Int|
-|Nome VARCHAR|
-|Curso Varchar|-->|Curso|
-|-----|
-|Cod INT|
-|Nome VARCHAR|
-|Duracao DATE|;
-|Curso|
-|-----|
-|Cod INT|
-|Nome VARCHAR|
-|Duracao DATE|-->|Professor|
+|
+|
+|
+V
+|Professor|
 |---------|
 |ID INT|
-|Nome Varchar|;   
-```
-
-
-
-
- 
-
-
+|Nome Varchar|
 
 
