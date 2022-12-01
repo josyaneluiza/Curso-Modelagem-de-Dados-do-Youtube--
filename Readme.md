@@ -128,4 +128,7 @@ modelo relacional :
 |ID INT|
 |Nome Varchar|
 
+MOdelo utilizado atualmente ! 
+
+
 
