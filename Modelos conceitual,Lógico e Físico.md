@@ -140,33 +140,7 @@ O modelo é posteriormente refinado com o uso
 de técnicas específicas, e finalmente
 implementado em um banco de dados físico.
 
-### Modelo Entidade-Relacionamento
 
-Também conhecido pela sigla MER, trata-se de um
-modelo conceitual usado para descrever objetos
-envolvidos no domínio de um sistema a ser construído,
-incluindo seus atributos e relacionamentos.
-
-O MER permite representar de forma abstrata a estrutura
-que irá constituir o banco de dados.
-
-É composto pelos seguintes objetos:
-* Entidades
-* Atributos
-* Relacionamentos
-
-### MER
-Um modelo entidade relacionamento é uma maneira
-sistemática de descrever e definir um processo de
-negócio.
-O processo é modelado como componentes (entidades)
-que são ligadas umas às outras por relacionamentos
-que indicam as dependências entre elas.
-As entidades podem ter várias propriedades (atributos)
-que as caracterizam.
-Diagramas são criados para representar graficamente
-entidades, atributos e relacionamentos, denominados
-Diagramas Entidade-Relacionamento (DER).
 
 
 
