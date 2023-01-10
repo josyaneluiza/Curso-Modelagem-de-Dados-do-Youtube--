@@ -4,10 +4,10 @@ Dados sao fatos em uma forma primária que podem ser armazenados em algum meio.
 
 Ex: CPF, Nome, Data 
 
-**um dado sozinho não tem significado, mas dados juntos dão origem a informação :**
+**um dado sozinho não tem significado, mas dados juntos dão origem a informação:**
 
 
-**Informação** :São os fatos organizados de maneira a produzir um significado -> dados colocados em contexto . EX : Lista de clientes com seus números de cpf ordenados. 
+**Informação**:São os fatos organizados de maneira a produzir um significado -> dados colocados em contexto . EX : Lista de clientes com seus números de cpf ordenados. 
 
 **Banco de dados organiza dados para poder extrair anotações.**
 
@@ -19,40 +19,40 @@ organizados de modo a modelar aspectos do
 mundo real, para que seja possível efetuar
 processamento que gere informações relevantes
 para os usuários a partir desses dados.
-Jm BD é composto por diversos objetos, tais
+Um BD é composto por diversos objetos, tais
 como: tabelas, esquemas, visões, consultas,
-elatórios, procedimentos, triggers, entre outros.
+relatórios, procedimentos, triggers, entre outros.
 
 **Banco de dados : Tem o simbolo de cilindro pois significa armazenamento**
 
-**Banco de dados é uma coleçao(conjunto)  organizados de dados. São modelados para armazenar informações do mundo real. Ex: agenda de amigos.** 
+**Banco de dados é uma coleção(conjunto)  organizados de dados. São modelados para armazenar informações do mundo real. Ex: agenda de amigos.** 
 
 ## Aplicações dos Bancos de Dados
 
 Bancos de dados encontram aplicações em
 inúmeras áreas, como:
-Sistemas bancários
-Reservas em hotéis
-• Controle de estoque em supermercados
-Catálogo de livros em bibliotecas
+* Sistemas bancários
+* Reservas em hotéis
+* Controle de estoque em supermercados
+* Catálogo de livros em bibliotecas
 E-commerce
-• Receita Federal
-YouTube
+* Receita Federal
+* YouTube
 
 Metadados:
-* sao dados sobre dados 
-* Permite efetuar a representação e identificação dos dados, garantindo sua consistencia e persistencia (para que sejam solidos e dados nao se percam).
-* Os metadardos sao mantidos no dicionario de dados (ou em um catalogo de dados)
+* são dados sobre dados 
+* Permite efetuar a representação e identificação dos dados, garantindo sua consistência e persistência (para que sejam sólidos e dados não se percam).
+* Os metadados sao mantidos no dicionário de dados (ou em um catálogo de dados).
  
 
 Vai ter tabelas, visões e procedimentos organizados . 
 
 
-## Banco de dados : Tem o simbolo de cilindro pois significa armazenamento
+## Banco de dados : Tem o símbolo de cilindro pois significa armazenamento
 
- SGBD ( sistema de gerenciamento de banco de dados) : CONJUNTO DE SOFTWARE que permite criar ou alterar banco de dados
+ SGBD ( sistema de gerenciamento de banco de dados) : CONJUNTO DE SOFTWARE que permite criar ou alterar banco de dados.
 
- permite tambem sistema para proteçao desse dados.
+ permite também sistema para proteção desse dados.
 
 Exemplos de SGBDs :
 • Oracle Database
@@ -63,7 +63,7 @@ Exemplos de SGBDs :
 • MongoDB
 • Teradata
 • PostgreSQL
-SQLite
+* SQLite
 
  SGBDR (R SIGNIFICA RELACIONAL) 
 
@@ -78,21 +78,21 @@ SQLite
  * Projetista/ desenvolvedor
  * Usuário final  - PESSOA QUE UTILIZA
 
- ### Caracteristica e funcionalidade 
+ ### Característica e funcionalidade 
 
- * controle de redundancia : evitar duplicidade dos dados
- * mulltiplas visoes de dados : exibir infromaçoes de fromas distintas 
- * fazer controle de concorrrencia : Evitar que duas pessoas que estao acessando os dados interfira na açao da outra 
+ * controle de redundância : evitar duplicidade dos dados
+ * mulltiplas visões de dados : exibir informações de formas distintas 
+ * fazer controle de concorrência : Evitar que duas pessoas que estão acessando os dados interfira na ação da outra 
  * Backup e restauração 
- * Autenticacao e autorizacao de acesso 
- * Restriçoes e Integridade 
+ * Autenticação e autorização de acesso 
+ * Restrições e Integridade 
 
- ## Modelagem de banco de dados : 
+ ## Modelagem de banco de dados: 
 
- **Antigamente os dados era armaznados em fichas**
+ **Antigamente os dados era armazenados em fichas**
 
 
-    Com computador : 
+    Com computador: 
 
  ### Modelo Hierárquico:
 
@@ -106,7 +106,7 @@ Um esquema no modelo hierárquico é um
 diagrama de estrutura em árvore.
 O acesso aos dados é sempre unidirecional, a
 partir do pai ao filho.
-  **registro pai e regisro filho . Era um diagrama** : 
+  **registro pai e registro filho . Era um diagrama** : 
 
  ```mermaid
 graph TD;
@@ -121,7 +121,7 @@ graph TD;
     Engenharia-->Monica;
 ```
 
-**Para acessar paula : acessa departamento finaiceira - paula**
+**Para acessar paula : acessa departamento financeiro - paula**
 
 
 ## Modelo em Rede
@@ -169,6 +169,10 @@ rápida e segura.
 |Nome Varchar|
 
 **Modelo utilizado atualmente !**
+
+Outros temas em ordem : 
+
+
 
 
 

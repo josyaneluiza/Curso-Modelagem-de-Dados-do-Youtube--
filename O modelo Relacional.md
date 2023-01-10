@@ -27,7 +27,7 @@ organizações.
 dados usados em um SI(Sistema de Informação), com definições e formatos
 específicos.
 
-**É importante criar o modelo antes para evitar de criar redundancia e esquecer alguma informaçao**
+**É importante criar o modelo antes para evitar de criar redundância e esquecer alguma informação**
 
 * Hierárquico
 * Rede
@@ -80,9 +80,9 @@ armazenados.
 armazenar dados sobre os clientes de uma
 loja. Para isso, criamos tabelas para
 guardar diferentes conjuntos de dados
-relacionados a esses clientes, como dad
+relacionados a esses clientes, como dados
 pessoais, dados de compras, crédito, e
-outras. **É provavel que fiquem espalhados em várias relações para nao ter redundância**
+outras. **É provável que fiquem espalhados em várias relações para não ter redundância**
 
 
 ## Componentes de um Banco de Dados Relacional
@@ -90,21 +90,21 @@ outras. **É provavel que fiquem espalhados em várias relações para nao ter r
 * Tabela: estrutura básica de armazenamento no
 SGBDR. Armazena todos os dados necessários
 sobre algo do mundo real, como clientes, pedidos
-ou produtos. também chamada de Relação. Um
+ou produtos, também chamada de Relação, um
 banco de dados relacional pode conter uma ou
 mais Tabelas
 * Tupla: ou linha / registro, representa todos os
 dados requeridos por uma determinada ocorrência
 de entidade em particular. Por exemplo, os dados
-de um cliente específico. Cada linha em uma tabe
-deve ser identificada por uma chave primária, de
+de um cliente específico. Cada linha em uma tabela
+deve ser identificada por uma chave primária de
 modo a não haver duplicação de registros.
 * Coluna: Unidade que armazena um tipo
-específico de dado (valor) - ou não
+específico de dado(valor) - ou não
 armazena nada, com valor nulo. Esta é
 uma coluna não-chave, significando que
 seu valor pode se repetir em outras linhas
-da tabela. **Exemplo:coluna nome, coluna sobrenome**
+da tabela. **Exemplo: coluna nome, coluna sobrenome**
 * Relacionamento: Associação entre as
 entidades (tabelas), conectadas por chave
 primárias e chaves estrangeiras.
@@ -112,7 +112,7 @@ primárias e chaves estrangeiras.
 * Chave Primária: coluna (atributo) que identifica
 um registro de forma exclusiva na tabela. Por
 exemplo, o CPF de um cliente, contendo um valor
-que não se repete na relação.**Vários fábios, poderm com CPFs diferente**
+que não se repete na relação.**Vários fábios, poderem com CPFs diferente**
 * Chave estrangeira: coluna que define como as tabelas
 se relacionam umas com as outras. Uma FK se refere a
 uma PK ou a uma chave única em outra tabela (ou na

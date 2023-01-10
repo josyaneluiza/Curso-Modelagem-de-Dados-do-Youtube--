@@ -3,7 +3,7 @@
 # modelagem de dados em três níveis:
 • Modelo Conceitual (alto nível) -
 MCD
-Modelo Lógico - MLD
+* Modelo Lógico - MLD
 • Modelo Físico (baixo nível) - MFD
 
 ## Modelo Conceitual :

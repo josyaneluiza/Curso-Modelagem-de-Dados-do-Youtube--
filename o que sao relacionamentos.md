@@ -44,7 +44,7 @@ relacionamento pode ser:
 
 e assim sucessivamente ....
 
-Os relacionamentos mais comuns são os graus dois  (binário)
+Os relacionamentos mais comuns são os graus dois (binário)
 
 
 ### Relacionamento Unário (Recursivo)
@@ -87,7 +87,7 @@ exemplo, um produto é vendido em uma loja.
 
 Acima está mostrado a associação entre chaves
 
-O grau de um Relacionamento indica o número de entidades envolvidas no relacionamento, como por exemplo unario, binário e ternario.
+O grau de um Relacionamento indica o número de entidades envolvidas no relacionamento, como por exemplo unário, binário e ternário.
 
 
 ### Efetuando relacionamento entre múltiplas tabelas
